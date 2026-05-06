@@ -1,20 +1,73 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+
+  <h1>adhitype</h1>
+
+  <p>
+    <b>A clean, minimalistic typing test and online multiplayer racer.</b><br />
+    Experience typing in its purest form with deep customization.
+  </p>
+
+  <p>
+    <a href="https://adhitype.infinityfree.me">
+      <img src="https://img.shields.io/badge/Launch_App-adhitype.ifinity.me-000000?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Demo" />
+    </a>
+  </p>
+
+  <br />
+
+  <p>
+    <img src="https://img.shields.io/github/stars/HelloTxT-here/adhitype?style=flat-square&color=lightgrey" />
+    <img src="https://img.shields.io/github/license/HelloTxT-here/adhitype?style=flat-square&color=lightgrey" />
+    <img src="https://img.shields.io/badge/PRs-welcome-white?style=flat-square" />
+  </p>
+
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+### ◈ The Philosophy
 
-View your app in AI Studio: https://ai.studio/apps/5579d142-edcc-4139-89d6-59a91d1e6cd8
+**adhitype** is built on the belief that speed comes from focus. By removing visual clutter and providing a highly customizable environment, users can achieve a flow state faster.
 
-## Run Locally
+*   **Multiplayer Racing** – Compete against others in real-time.
+*   **Deep Customization** – Tailor every visual element to your preference.
+*   **Performance Focused** – Lightweight architecture for instant loading.
 
-**Prerequisites:**  Node.js
+---
 
+### ◈ Live Environment
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+The application is hosted and ready for use at:  
+👉 **[https://adhitype.infinityfree.me](https://adhitype.infinityfree.me)**
+
+---
+
+### ◈ Technical Overview
+
+<details>
+<summary><b>View System Features</b></summary>
+<br />
+<table width="100%">
+  <tr>
+    <td><b>Engine</b></td>
+    <td>High-accuracy WPM and raw-KPS tracking.</td>
+  </tr>
+  <tr>
+    <td><b>Theming</b></td>
+    <td>Dynamic CSS variables for instant theme switching.</td>
+  </tr>
+  <tr>
+    <td><b>Multiplayer</b></td>
+    <td>Real-time synchronization for competitive racing.</td>
+  </tr>
+</table>
+</details>
+
+<br />
+
+### ◈ Installation
+
+To explore the source or host it yourself:
+```bash
+git clone [https://github.com/HelloTxT-here/adhitype.git](https://github.com/yourusername/adhitype.git)
+cd adhitype
