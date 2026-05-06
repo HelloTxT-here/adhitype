@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --color-bg: #323437;
+  --color-main: #e2b714;
+  --color-sub: #646669;
+  --color-caret: #e2b714;
+  --color-text: #d1d0c5;
+  --color-error: #ca4754;
+  
+  --font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-size: 32px;
+}
+
+@theme {
+  --font-mono: var(--font-family);
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  
+  --color-bg-theme: var(--color-bg);
+  --color-main-theme: var(--color-main);
+  --color-sub-theme: var(--color-sub);
+  --color-caret-theme: var(--color-caret);
+  --color-text-theme: var(--color-text);
+  --color-error-theme: var(--color-error);
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-family);
+  @apply antialiased selection:bg-[#e2b714]/30 selection:text-[#e2b714];
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.typing-text {
+  font-size: var(--font-size);
+  line-height: 1.5;
+}
+
+.caret-smooth {
+  transition: left 0.1s ease, top 0.1s ease;
+}
+
+.command-palette-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.command-palette-scroll::-webkit-scrollbar-thumb {
+  background-color: var(--color-sub);
+  border-radius: 10px;
+}
